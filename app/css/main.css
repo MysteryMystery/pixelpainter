@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed');
+
+html, body {
+    background-color: darkslategrey;
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: aliceblue;
+    transition: background-color 2s;
+    padding-top: 1em;
+}
+
+.selected {
+    opacity: 0.5;
+    border: 0.1em solid skyblue;
+}
+
+.paint-cell {
+    width: 1em;
+    height: 1em;
+    float: left;
+    border: 0.05em solid aliceblue;
+}
+
+.palette-cell {
+    height: 5em;
+}
+
+.palette {
+    margin-top: 1em;
+    border: 0.1em solid blanchedalmond;
+}
+
+.fas {
+    background-color: rgba(0.2, 0.2, 0.2, 0.2);
+    padding: 0.1em;
+    font-size: 3em;
+
+    border-radius: 2em;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
